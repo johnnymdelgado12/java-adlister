@@ -18,6 +18,7 @@
 <html>
 <head>
     <title>Login Form</title>
+    <%@include file="partials/css.jsp"%>
 </head>
 <body>
 <%@include file="partials/navbar.jsp"%>
@@ -30,5 +31,6 @@
     <br>
     <input type="submit">
 </form>
+<%@include file="partials/javascript.jsp"%>
 </body>
 </html>
