@@ -13,7 +13,9 @@ public class ShowAdsServlet extends HttpServlet {
 
         //create he connection to DaoFactory
         Ads adsDao = DaoFactory.getAdsDao();
-        //this will give us access to all the Products Interface methods
+
+
+        //this will give us access to all the Ads Interface methods
 
         List<Ad> ads = adsDao.all();
 

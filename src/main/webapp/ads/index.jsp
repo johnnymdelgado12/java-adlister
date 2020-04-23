@@ -16,8 +16,8 @@
 
 <c:forEach var="ad" items="${ads}">
     <div class="ad">
-        <h2>${ad.title}</h2>
-        <p>Description: ${ad.description}</p>
+        <h2><c:out value="${ad.title}"/></h2>
+        <p>Description: <c:out value="${ad.description}"/> </p>
     </div>
 </c:forEach>
 </body>
